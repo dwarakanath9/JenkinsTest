@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="44786" started-at="2018-12-29T12:11:45Z" finished-at="2018-12-29T12:12:29Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="20852" started-at="2018-12-29T12:11:45Z" finished-at="2018-12-29T12:12:06Z">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@7225790e]" name="setup" is-config="true" duration-ms="6999" started-at="2018-12-29T17:41:45Z" finished-at="2018-12-29T17:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:parallelTest.CrossBrowserScript@7225790e]" name="launchDriver" duration-ms="13836" started-at="2018-12-29T17:41:52Z" finished-at="2018-12-29T17:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="31601" started-at="2018-12-29T12:11:45Z" finished-at="2018-12-29T12:12:16Z">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@13a57a3b]" name="setup" is-config="true" duration-ms="14886" started-at="2018-12-29T17:41:45Z" finished-at="2018-12-29T17:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:parallelTest.CrossBrowserScript@13a57a3b]" name="launchDriver" duration-ms="16703" started-at="2018-12-29T17:42:00Z" finished-at="2018-12-29T17:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- FirefoxTest -->
+    <test name="IeTest" duration-ms="23884" started-at="2018-12-29T12:12:06Z" finished-at="2018-12-29T12:12:29Z">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@6276ae34]" name="setup" is-config="true" duration-ms="5942" started-at="2018-12-29T17:42:06Z" finished-at="2018-12-29T17:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:parallelTest.CrossBrowserScript@6276ae34]" name="launchDriver" duration-ms="17941" started-at="2018-12-29T17:42:12Z" finished-at="2018-12-29T17:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- IeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

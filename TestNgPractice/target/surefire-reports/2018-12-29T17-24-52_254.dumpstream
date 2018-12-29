@@ -1,0 +1,4 @@
+# Created at 2018-12-29T17:24:53.450
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Dwaraka_backup\GITWorkSpace\photon\TestNgPractice\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
